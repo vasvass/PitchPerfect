@@ -14,6 +14,7 @@
 		773B8CDC23E2D82F00DCBC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773B8CDA23E2D82F00DCBC41 /* Main.storyboard */; };
 		773B8CDE23E2D83100DCBC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773B8CDD23E2D83100DCBC41 /* Assets.xcassets */; };
 		773B8CE123E2D83100DCBC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773B8CDF23E2D83100DCBC41 /* LaunchScreen.storyboard */; };
+		77C7CE1A23E89B1500E4DD7D /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C7CE1923E89B1500E4DD7D /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		773B8CDD23E2D83100DCBC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		773B8CE023E2D83100DCBC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		773B8CE223E2D83100DCBC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C7CE1923E89B1500E4DD7D /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				773B8CD423E2D82F00DCBC41 /* AppDelegate.swift */,
 				773B8CD623E2D82F00DCBC41 /* SceneDelegate.swift */,
+				77C7CE1923E89B1500E4DD7D /* PlaySoundsViewController+Audio.swift */,
 				773B8CD823E2D82F00DCBC41 /* RecordSoundsViewController.swift */,
 				771B31C123E4262B005E0170 /* PlaySoundsViewController.swift */,
 				773B8CDA23E2D82F00DCBC41 /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C7CE1A23E89B1500E4DD7D /* PlaySoundsViewController+Audio.swift in Sources */,
 				773B8CD923E2D82F00DCBC41 /* RecordSoundsViewController.swift in Sources */,
 				773B8CD523E2D82F00DCBC41 /* AppDelegate.swift in Sources */,
 				771B31C223E4262B005E0170 /* PlaySoundsViewController.swift in Sources */,
